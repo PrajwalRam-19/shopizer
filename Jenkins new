@@ -1,6 +1,6 @@
 pipeline {
         agent {
-             label 'Node1'
+             label 'ubuntu'
         }
     stages {
         stage('Git') {
